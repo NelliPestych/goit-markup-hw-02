@@ -56,6 +56,14 @@ nav ul li a:hover {
     color: #404bbf;
 }
 
+.contacts-item-link {
+    color: #434455;
+}
+
+.contacts-item-link:hover, .contacts-item-link:focus {
+    color: #404bbf ;
+}
+
 /* Typography */
 h1 {
     font-family: 'Roboto', sans-serif;
