@@ -47,6 +47,15 @@ nav ul li a:hover {
     font-style: normal;
 }
 
+.contacts-item {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-item:hover, .contacts-item:focus {
+    color: #404bbf;
+}
+
 /* Typography */
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -122,14 +131,19 @@ button:hover, button:focus {
     background-color: #F4F4FD;
 }
 
+.team-title {
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
 .team ul li {
     text-align: center;
 }
 
 .team-item-title {
-    line-height: 1.11;
     text-transform: capitalize;
     color: #2e2f42;
+    line-height: 1.2;
 }
 
 .team-item {
