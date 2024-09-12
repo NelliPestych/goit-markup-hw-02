@@ -65,8 +65,12 @@ h3 {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
     color: #2E2F42;
+    text-align: center;
+}
+
+.first-section {
+    background-color: #E7E9FC;
 }
 
 /* Buttons */
@@ -85,25 +89,55 @@ button:hover {
     background-color: #404BBF;
 }
 
+.second-section {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.second-section h2 {
+    display: none;
+}
+
 /* Team section styles */
-#team ul li {
+.team {
+    background-color: #E7E9FC;
+}
+
+.team ul li {
     position: relative;
     text-align: center;
     padding-bottom: 32px;
     border-radius: 0 0 4px 4px;
     box-shadow:
-            0px 2px 1px 0px #2E2F4214,
-            0px 1px 1px 0px #2E2F4229,
-            0px 1px 6px 0px #2E2F4214;
+            0 2px 1px 0 #2E2F4214,
+            0 1px 1px 0 #2E2F4229,
+            0 1px 6px 0 #2E2F4214;
 }
 
-#team img {
-    border-radius: 0 0 4px 4px;
+.team img {
+    width: 264px;
+    height: 260px;
+}
+
+.portfolio {
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.portfolio li {
+    width: 360px;
+    height: 420px;
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio img {
+    width: 360px;
+    height: 300px;
 }
 
 /* Footer */
 footer {
-    text-align: center;
+    text-align: left;
     padding: 20px;
     background-color: #2E2F42;
     color: #FFFFFF;
@@ -116,4 +150,12 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.logo {
+    color: #F4F4FD;
+}
+
+.logo span {
+    color: #4D5AE5;
 }
